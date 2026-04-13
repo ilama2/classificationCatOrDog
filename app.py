@@ -248,4 +248,4 @@ with gr.Blocks(css=custom_css, title="Cat vs Dog Classifier") as app:
         outputs=[label_output, stat_total, stat_avg, stat_cats, stat_dogs, history_html]
     )
 
-app.launch()
+app.launch(share=True)
